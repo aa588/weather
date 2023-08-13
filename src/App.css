@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Architects Daughter", cursive;
+  font-family: "Niramit", sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+.temp {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.App {
+  height: 100vh;
+  background: url(background.jpg) no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  padding: 50px 0px;
+}
+
+.search {
+  height: 50px;
+  margin-bottom: 40px;
+}
+
+.searchBtn {
+  border: 2px solid rgb(13, 80, 53);
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 16px;
+  color: rgb(41, 104, 109);
+  padding-left: 10px;
+}
+
+.search input::placeholder {
+  color: rgb(41, 104, 109);
+}
+
+.top {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-info-left-section {
+  text-align: left;
+  width: 200px;
+}
+
+.main-info-right-section {
+  text-align: left;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
